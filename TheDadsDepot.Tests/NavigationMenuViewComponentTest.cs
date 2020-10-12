@@ -24,6 +24,8 @@ namespace TheDadsDepot.Tests
                 new Product {ProductID = 2, Name = "P2", Category = "Apples"},
                 new Product {ProductID = 3, Name = "P3", Category = "Plums"},
                 new Product {ProductID = 4, Name = "P4", Category = "Oranges"},
+                new Product {ProductID = 5, Name = "P5", Category = "Pears"},
+
             }).AsQueryable<Product>());
 
             NavigationMenuViewComponent target =
